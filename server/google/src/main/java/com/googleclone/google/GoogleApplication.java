@@ -1,13 +1,13 @@
-package com.searchengine.searchengine;
+package com.googleclone.google;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SearchengineApplication {
+public class GoogleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SearchengineApplication.class, args);
+		SpringApplication.run(GoogleApplication.class, args);
 	}
 
 }
