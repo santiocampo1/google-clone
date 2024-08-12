@@ -6,8 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GoogleApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(GoogleApplication.class, args);
-	}
+    public static void main(String[] args) {
+        try {
+            SpringApplication.run(GoogleApplication.class, args);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 }
